@@ -1,0 +1,63 @@
+
+
+body{
+    background-color: hsl(205, 90%, 85%);
+    color: black;
+    
+}
+#Title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    
+}
+.social-icon{
+    font-size: 3em;
+    color: black;
+    transition: .2s;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon:hover{
+    color: hsl(0, 0%, 60%);
+    cursor: pointer;
+}
+#AboutMe{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.media-scroller{
+    padding: 1%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    
+    
+}
+.media-element{
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 1rem;
+    padding: 1rem;
+    background-color:  hsl(205, 90%, 75%);
+    border-radius: 2em;
+}
+.media-element > img{
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 2em;
+}
