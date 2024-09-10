@@ -3,6 +3,8 @@
 body{
     background-color: hsl(205, 90%, 85%);
     color: black;
+    font-family: monospace, "Lucida Console";
+    font-size: large;
     
 }
 #Title{
@@ -26,10 +28,13 @@ body{
     cursor: pointer;
 }
 #AboutMe{
+    padding: 1%;
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(205, 90%, 95%);
+    border-radius: 2em;
     
     
 }
