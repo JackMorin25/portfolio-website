@@ -60,6 +60,9 @@ body{
     background-color:  hsl(205, 90%, 75%);
     border-radius: 2em;
 }
+.media-element:hover{
+    cursor: pointer;
+}
 .media-element > img{
     inline-size: 100%;
     aspect-ratio: 16 / 9;
