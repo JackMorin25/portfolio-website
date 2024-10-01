@@ -41,7 +41,7 @@ body{
 .media-scroller{
     padding: 1%;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     display: grid;
     gap: 2rem;
     grid-auto-flow: column;
@@ -77,10 +77,11 @@ body{
     margin-bottom: 1%;
     background-color: hsl(39, 77%, 90%);
     border-radius: 2em;
-    padding: 3%;
+    padding: 2%;
     float: left;
     text-align: left;
     width: 50%;
+    line-height: 150%;
 }   
 #box2{
     margin-top: 3%;
@@ -91,6 +92,7 @@ body{
     float: right;
     text-align: right;
     width: 50%;
+    line-height: 150%;
 }
 #box3{
     margin-top: 3%;
@@ -101,6 +103,7 @@ body{
     float: left;
     text-align: left;
     width: 50%;
+    line-height: 150%;
 }
 
 #test{
